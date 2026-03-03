@@ -1,0 +1,8 @@
+cat > .gitignore << EOF
+data/proteinGroups.txt
+results/log2_lfq_matrix_for_limma.csv
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+EOF
